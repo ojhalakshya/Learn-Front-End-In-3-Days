@@ -65,3 +65,11 @@ In old version it can also be written as `<br />`.
 * Self closing tag.
 * Width and height are in **PIXELS**.
 * alt -> Defines alternative text for the image.
+
+#### Anchor Tag
+
+```html
+<a href = "newPage.html">New Page</a>
+```
+
+* Hyper Link tag.
