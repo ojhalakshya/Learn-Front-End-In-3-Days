@@ -8,28 +8,28 @@
   <h3>Go back</h3>
   </a>
   <form>
-    First Name:<input type = "text"><br>
-    Last Name: <input type = "text"><br>
+    First Name:<input type = "text" name = "firstname"><br>
+    Last Name: <input type = "text" name = "lastname"><br>
 
     Gender: <br>
-    <input type = "radio" name = "gender">Male<br>
-    <input type = "radio" name = "gender">Female<br>
-    <input type = "radio" name = "gender">Other<br>
+    <input type = "radio" name = "gender" value = "Male">Male<br>
+    <input type = "radio" name = "gender" value = "Female">Female<br>
+    <input type = "radio" name = "gender" value = "Other">Other<br>
 
     Pets: <br>
-    <input type = "checkbox">Cat<br>
-    <input type = "checkbox">Dog<br>
-    <input type = "checkbox">Other<br>
+    <input type = "checkbox" name = "cat" value = "cat">Cat<br>
+    <input type = "checkbox" name = "Dog" value = "Dog">Dog<br>
+    <input type = "checkbox" name = "Other" value = "Other">Other<br>
 
-    Email: <input type = "email" required><br>
-    Password: <input type = "password" minlength="5"><br>
+    Email: <input type = "email" required name = "email"><br>
+    Password: <input type = "password" minlength="5" name = "password"><br>
 
-    Birthday: <input type = "date"><br>
+    Birthday: <input type = "date" name = "birthday"><br>
 
     Cars: <br>
-    <select>
-      <option value = "Volvo">Volvo</option>
-      <option value = "BMW">BMW</option>
+    <select name = "Cars">
+      <option value = "Volvo" name = "Volvo">Volvo</option>
+      <option value = "BMW" name = "BMW">BMW</option>
     </select><br>
 
     <!-- Automatically creates the submit button -->
