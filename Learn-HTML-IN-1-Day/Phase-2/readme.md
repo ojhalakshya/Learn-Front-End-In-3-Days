@@ -40,6 +40,8 @@ Use this [reference](https://www.w3schools.com/html/html_forms.asp) for `form ta
 * **Form automatically uses get method to send the information throught the url like this.**
 ```
 http://127.0.0.1:5500/Learn-HTML-IN-1-Day/Phase-2/src/register.html?firstname=Lakshya&lastname=Ojha&gender=Male&cat=cat&Other=Other&email=ojhalakshya%40gmail.com&password=fbsdggbhhfg&birthday=2020-10-30&Cars=BMW
+
+firstname=Lakshya&lastname=Ojha&gender=Male&cat=cat&Other=Other&email=ojhalakshya%40gmail.com&password=fbsdggbhhfg&birthday=2020-10-30&Cars=BMW
 ```
 
 So this would show all the information through the url link.
