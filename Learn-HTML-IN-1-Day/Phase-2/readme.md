@@ -19,8 +19,15 @@ Use this [reference](https://www.w3schools.com/html/html_forms.asp) for `form ta
   <input type = "checkbox">Other<br>
 
   Email: <input type = "email" required><br>
+  Password: <input type = "password" minlength="5"><br>
 
   Birthday: <input type = "date"><br>
+
+  Cars: <br>
+  <select>
+    <option value = "Volvo">Volvo</option>
+    <option value = "BMW">BMW</option>
+  </select><br>
 
   <!-- Automatically creates the submit button -->
   <input type = "submit" value = "Register">
