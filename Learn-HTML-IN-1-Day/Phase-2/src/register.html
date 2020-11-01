@@ -4,14 +4,24 @@
   <title>Register</title>
 </head>
 <body>
+
+  <!-- Div tag helps greatly when we are using css -->
+  <div>
   <a href = "index.html">
   <h3>Go back</h3>
   </a>
+  </div>
+
+  <!-- This is forms tag, it has its own tags and different attributes -->
+  <!-- It also has request type as attribute, by default the form information is sent in 'GET' request -->
+  <!-- But you can use 'method' keyword in forms to change it to any other like 'POST' -->
   <form>
     First Name:<input type = "text" name = "firstname"><br>
     Last Name: <input type = "text" name = "lastname"><br>
 
     Gender: <br>
+    <!-- Here the information is stored in 'name' and 'value' i.e -->
+    <!-- the information has name = "gender" and for this tag the value = "Male/Female/Other" -->
     <input type = "radio" name = "gender" value = "Male">Male<br>
     <input type = "radio" name = "gender" value = "Female">Female<br>
     <input type = "radio" name = "gender" value = "Other">Other<br>
