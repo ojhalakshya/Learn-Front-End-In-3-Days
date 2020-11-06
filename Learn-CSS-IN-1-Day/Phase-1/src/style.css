@@ -1,0 +1,54 @@
+*
+{
+  text-align: center;
+}
+
+body
+{
+  background-image: url(https://images.unsplash.com/photo-1513151233558-d860c5398176?ixlib=rb-1.2.1&w=1000&q=80);
+  background-size: cover;
+}
+
+h2
+{
+  color: #CC1943;
+  text-align: center;
+  border: 5px solid #FFABAB;
+  cursor: pointer;
+}
+
+li
+{
+  color: red;
+  list-style: none;
+  display: inline-block;
+  background-color: white;
+}
+
+p
+{
+  color: pink;
+}
+
+p
+{
+  color: green;
+  border: 3px dashed #00DB42;
+}
+
+.webtext
+{
+  border: 3px inset #4C77D9;
+  color: #C2E400;
+}
+
+.active
+{
+  color: #EB8600;
+  background-color: white;
+}
+
+#div1
+{
+  background: rgba(232, 64, 159, 0.4);
+}
