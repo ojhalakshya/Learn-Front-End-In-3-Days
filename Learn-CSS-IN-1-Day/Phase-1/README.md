@@ -1,5 +1,9 @@
 # CSS in 1 Day
 
+#### CSS reference sources:
+1. https://www.w3schools.com/cssref/css_selectors.asp
+2. https://css-tricks.com/almanac/
+
 Basic CSS syntax type:
 
 ```css
