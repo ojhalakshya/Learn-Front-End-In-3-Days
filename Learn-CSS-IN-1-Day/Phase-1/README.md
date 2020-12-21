@@ -12,7 +12,7 @@ Selector
   Property: value;
 }
 ```
-**Example**
+Example
 ```css
 h2
 {
@@ -77,12 +77,12 @@ li
 }
 ```
 
-### CSS referances
+#### CSS referances
 
 1. Use [css-tricks](https://css-tricks.com/almanac/) to referance any selector/property knowledge.
 2. Use [paltton](http://paletton.com/) to choose colors for anything, it gives a good color comparison and contrasts for any color.
 
-## Selectors
+### Selectors
 
 * Selector referance: [w3schools](https://www.w3schools.com/cssref/css_selectors.asp).
 
@@ -101,7 +101,7 @@ element + element
 !important (not recommended)
 ```
 
-### Class
+#### Class
 
 * Enables you to create a class, make some elements/things in html file to this class and then edit the class properties.
 
@@ -119,7 +119,7 @@ element + element
 
 * There can be any number of classes and elements can inherit properties from any number of classes.
 
-### ID
+#### ID
 
 ```css
 #div1
@@ -145,7 +145,7 @@ element + element
 >
 > opacity = 0.2
 
-### * select all elements
+#### * select all elements
 * Selects all elements and applies the given properties to all the elements in the whole webpage.
 ```css
 *
@@ -154,5 +154,5 @@ element + element
 }
 ```
 
-## Important
+#### Important
 * Specificity: CSS file is read from top to bottom, so even if in **select all elements '*'** the `align = right`, but if later on it is change by lets say *p, body or h2 etc* then the first align is over-rided.
