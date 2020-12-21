@@ -1,0 +1,66 @@
+*
+{
+  text-align: center;
+}
+
+body
+{
+  background-image: url(https://images.unsplash.com/photo-1513151233558-d860c5398176?ixlib=rb-1.2.1&w=1000&q=80);
+  background-size: cover;
+}
+
+h2
+{
+  color: yellow;
+  text-align: center;
+  border: 5px solid #FFABAB;
+  cursor: pointer;
+}
+
+li
+{
+  color: red;
+  list-style: none;
+  display: inline-block;
+  background-color: white;
+}
+
+p
+{
+  color: rgb(50, 248, 255);
+  border: 3px dashed #00DB42;
+  text-align: center;
+}
+
+.webtext
+{
+  border: 3px inset #4C77D9;
+  color: #C2E400;
+}
+
+.active
+{
+  color: #EB8600;
+  background-color: white;
+}
+
+#div1
+{
+  background: rgba(232, 64, 159, 0.4);
+}
+
+#div2
+{
+  background-color : rgba(0, 255, 0, 0.2);
+}
+
+h2, p
+{
+  border: lightskyblue;
+  text-align: right;
+}
+
+.hoverClass:hover
+{
+  background-color: tomato;
+}
