@@ -29,7 +29,7 @@ p
 {
   color: rgb(50, 248, 255);
   border: 3px dashed #00DB42;
-  text-align: center;
+  text-align: center !important;
 }
 
 .webtext
@@ -63,4 +63,24 @@ h2, p
 .hoverClass:hover
 {
   background-color: tomato;
+}
+
+.customFont
+{
+  font-family: 'Lora', serif;
+  font-size: 50px;
+  color: black;
+  background-color: white;
+}
+
+img
+{
+  float: left;
+}
+
+footer
+{
+  /* Clear tag is used to clear any previous floating property. */
+  clear: both;
+  font-size: 50px;
 }
